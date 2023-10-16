@@ -1,0 +1,54 @@
+{
+    "data": {
+        "tool": {
+            "install": {
+                "directory": "/Users/chakrava/go/src/custom_mock_coverity_binary"
+            }
+        },
+        "polaris": {
+            "accessToken": "llrk18mng15rh40a3ifnrdmta9vilnrkujckcu4ujktaa83blks6q2ihu1n5o283623c8u66st9qu",
+            "application": {
+                "name": "nodegoat_app"
+            },
+            "project": {
+                "name": "snyk_node_goof"
+            },
+            "branch": {
+                "name": "main"
+            },
+            "assessment": {
+                "types": [
+                    "SAST",
+                    "SCA"
+                ]
+            },
+            "serverUrl": "https://pim.altair.synopsys.com",
+            "prComment": {
+                "enabled": false
+            },
+            "onboarding":true
+        },
+        "environment": {
+            "scan": {
+                "pull": false
+            }
+        },
+        "github": {
+            "repository": {
+                "name": "snyk_nodejs_goof",
+                "owner": {
+                    "name": "sig-chakrava"
+                },
+                "branch": {
+                    "name": "main"
+                },
+                "pull": {
+                    "number": 1
+                }
+            },
+            "user": {
+                "token": "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"
+            }
+        }
+    }
+}
